@@ -1,0 +1,17 @@
+{
+    "name": "maciejmyszkiewicz/hostify",
+    "description": "PHP integration with HostifyAPI",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Maciejmyszkiewicz\\Hostify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maciej Myszkiewicz",
+            "email": "mmyszkiewicz@bwcoders.com"
+        }
+    ],
+    "require": {}
+}
