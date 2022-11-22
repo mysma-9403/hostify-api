@@ -18,5 +18,10 @@
     "require-dev": {
         "phpunit/phpunit": "^4.8.35"
     },
+    "autoload": {
+        "psr-4": {
+            "Hostify\\": "src/"
+        }
+    },
     "minimum-stability": "dev"
 }
