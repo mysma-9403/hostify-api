@@ -10,8 +10,8 @@ class Config
 
     private function __construct()
     {
-        $this->apiKey = env('HOSTIFY_API_KEY', 'cuahs7BiIDuobnvlEvGRoqryzjC4YMJi');
-        $this->apiDomain = env('API_DOMAIN', 'https://api-rms.hostify.com/');
+        $this->apiKey = env('HOSTIFY_API_KEY', '');
+        $this->apiDomain = env('API_DOMAIN', '');
     }
 
     public static function getInstance(): self
